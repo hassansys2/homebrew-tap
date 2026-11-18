@@ -1,7 +1,9 @@
 # hassansys2 Homebrew tap
 
 ```sh
-brew install --cask hassansys2/tap/remote-desktop-toggle
+brew tap hassansys2/tap
+brew trust hassansys2/tap
+brew install --cask remote-desktop-toggle
 ```
 
 | Cask | Description |
